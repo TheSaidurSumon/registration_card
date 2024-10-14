@@ -1,0 +1,130 @@
+* {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+html, body {
+    height: 100%; /* Make sure html and body take up the full height of the viewport */
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0;
+    font-family: "Poppins", sans-serif; /* Apply font */
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card {
+    border: 1px solid #FAB814; /* Card border color */
+    width: 420px; /* Card width */
+    height: 420px; /* Card height */
+    background-color: #fff; /* Card background color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 0px 10px 1px #888888; /* Card shadow */
+}
+.title-text{
+	text-align:center;
+	background-color:#044EA0;
+	padding:20px;
+	margin-top:-10px;
+
+	color:#fff;
+	border-radius:15px;
+	border-bottom:5px solid #FAB814;
+	
+}
+
+form{
+	
+	padding:20px;
+}
+.row{
+	display:flex;
+	justify-content:space-between;
+	margin-top:15px;
+	
+}
+
+.from-group{
+	width":50%;
+	
+}
+.submit-button{
+	background-color:;
+	text-align:center;
+	margin-top:20px;
+	
+}
+
+button{
+	
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,78,160,1) 77%, rgba(4,78,160,1) 100%);
+	border:1px solid #044EA0;
+	font-weight:700;
+	color:white;
+	padding:10px;
+	
+	width:50%;
+	border-radius:15px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+button:hover{
+	cursor:pointer;
+	background: rgb(2,0,36);
+	background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(4,78,160,1) 77%, rgba(4,78,160,1) 100%);
+	
+}
+
+
+input{
+padding:5px;
+background-color:#f2f2f2;
+border:none;
+border-radius:2px;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%; /* Full width of the container */
+    padding: 5px; /* Inner padding */
+    border: 1px solid #ccc; /* Default border color */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+    border-color: #4595CB; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(69, 149, 203, 0.5); /* Add a subtle shadow */
+    outline: none; /* Remove default outline */
+}
+
+
+.radio-button{
+	margin-top:20px;
+		
+}
+
+.radio-button {
+    margin: 10px 0; /* Space around the radio button group */
+}
+
+input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and label */
+}
+
+label {
+    margin-right: 15px; /* Space between labels */
+}
+
