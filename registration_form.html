@@ -14,49 +14,55 @@
 		<form action="">
 			<div class="row">
 				<div class="from-group">
-					<label for="">Full Name</label></br>
-					<input type="text" required />
+					<label for="">Full Name</label><br>
+					<input type="text" placeholder="Enter Your Name" required />
 				</div>
 				<div class="from-group">
 					<label for="">UserName</label></br>
-					<input type="text" required />
+					<input type="text" placeholder="Enter Your Useraame" required />
 				</div>
 			</div>
 			<div class="row">
 				<div class="from-group">
 					<label for="">Email</label></br>
-					<input type="email" required />
+					<input type="email" placeholder="Enter Your Email" required />
 				</div>
 				<div class="from-group">
 					<label for="">Phone Number</label></br>
-					<input type="tel" required />
+					<input type="tel" placeholder="Enter your Phone Number" required />
 				</div>
 				</div>
 			<div class="row">
 				<div class="from-group">
 					<label for="">Password</label></br>
-					<input type="Password" required />
+					<input type="Password" placeholder="Enter Password" required />
 				</div>
 				<div class="from-group">
 					<label for="">Confirm Password</label></br>
-					<input type="password" required />
+					<input type="password" placeholder="Retype Password" required />
 				</div>
 				</div>
 				<div class="radio-button">
-				<div class="from-group">
-						<label>Gender</label><br>
+				<div class="from-group" style="margin-top:20px">
+						<label >Gender</label><br>
 				</div>
-				<div class="from-group">
+				<div class="from-group"style="margin-top:10px" >
 						<input type="radio" name="gender" id="male" value="male" />
-						<label for="male">Male</label><br>
+						<label for="male">Male</label>
 						<input type="radio" name="gender" id="female" value="female" />
 						<label for="female">Female</label>
+						<input type="radio" name="gender" id="others" value="others" />
+						<label for="Others">Others</label>
 				</div>
 				</div>
 
 				<div class="submit-button">
 				<button type="submit">Submit</button>
+				
+				
+				<button class="reset" type="reset">Reset</button>
 				</div>
+				
 		</form>
 	
 	</div>

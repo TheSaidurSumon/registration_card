@@ -68,11 +68,33 @@ button{
 	font-weight:700;
 	color:white;
 	padding:10px;
+
+	width:20%;
+	border-radius:10px;
+
+}
+
+button.reset{
 	
-	width:50%;
-	border-radius:15px;
-	padding-left:50px;
-	padding-right:50px;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, #FAB814 0%, #FAB814 77%, #FAB814);
+	border:1px solid #044EA0;
+	font-weight:700;
+	color:white;
+	padding:10px;
+	border:none;
+	width:20%;
+	border-radius:10px;
+
+}
+button.reset:hover{
+	
+	background: rgb(2,0,36);
+	background:  linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(4,78,160,1) 77%, rgba(4,78,160,1) 100%);
+	border:1px solid #044EA0;
+	cursor:pointer;
+	border:none;
+
 }
 
 button:hover{
@@ -127,4 +149,16 @@ input[type="radio"] {
 label {
     margin-right: 15px; /* Space between labels */
 }
+button.or{
+	border-radius:100px;
+	
+}
+.success-message {
+    display: none;
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
 
