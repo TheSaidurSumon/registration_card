@@ -12,55 +12,59 @@
 	
 		<h2 class="title-text">Registration Form</h2>
 		<form action="">
-			<div class="row">
+			<div class="form-body">
+			<div class="row" style="margin-right:15px">
 				<div class="from-group">
-					<label for="">Full Name</label><br>
+					<label for="">Full Name:</label>
 					<input type="text" placeholder="Enter Your Name" required />
 				</div>
-				<div class="from-group">
-					<label for="">UserName</label></br>
-					<input type="text" placeholder="Enter Your Useraame" required />
+
+					<div class="from-group">
+					<label for="">Email:</label>
+					<input type="email" placeholder="Enter Your Email" required />
+				</div>
+					<div class="from-group">
+					<label for="">Password:</label>
+					<input type="Password" placeholder="Enter Password" required />
 				</div>
 			</div>
 			<div class="row">
 				<div class="from-group">
-					<label for="">Email</label></br>
-					<input type="email" placeholder="Enter Your Email" required />
+					<label for="">Username:</label>
+					<input type="text" placeholder="Enter Your Username" required />
 				</div>
 				<div class="from-group">
-					<label for="">Phone Number</label></br>
+					<label for="">Phone Number:</label>
 					<input type="tel" placeholder="Enter your Phone Number" required />
 				</div>
-				</div>
-			<div class="row">
 				<div class="from-group">
-					<label for="">Password</label></br>
-					<input type="Password" placeholder="Enter Password" required />
-				</div>
-				<div class="from-group">
-					<label for="">Confirm Password</label></br>
+					<label for="">Confirm Password:</label>
 					<input type="password" placeholder="Retype Password" required />
 				</div>
 				</div>
-				<div class="radio-button">
-				<div class="from-group" style="margin-top:20px">
-						<label >Gender</label><br>
 				</div>
-				<div class="from-group"style="margin-top:10px" >
-						<input type="radio" name="gender" id="male" value="male" />
+
+				<div class="radio-button">
+				<div class="" >
+						<label >Gender: </label>
+				</div>
+				<div class="button-group"  >
+						<input class=""  type="radio" name="gender" id="male" value="male" />
 						<label for="male">Male</label>
-						<input type="radio" name="gender" id="female" value="female" />
+						<input class="" type="radio" name="gender" id="female" value="female" />
 						<label for="female">Female</label>
-						<input type="radio" name="gender" id="others" value="others" />
+						<input class="" type="radio" name="gender" id="others" value="others" />
 						<label for="Others">Others</label>
 				</div>
 				</div>
 
 				<div class="submit-button">
+				
 				<button type="submit">Submit</button>
 				
 				
 				<button class="reset" type="reset">Reset</button>
+				<span>OR</span>
 				</div>
 				
 		</form>

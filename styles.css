@@ -20,8 +20,8 @@ body {
 
 .card {
     border: 1px solid #FAB814; /* Card border color */
-    width: 420px; /* Card width */
-    height: 420px; /* Card height */
+    width: 620px; /* Card width */
+    height: 320px; /* Card height */
     background-color: #fff; /* Card background color */
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0px 0px 10px 1px #888888; /* Card shadow */
@@ -42,20 +42,32 @@ form{
 	
 	padding:20px;
 }
-.row{
+
+.form-body{
 	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	
+}
+.row{
+	width:50%;
+	display:flex;
+	flex-direction:column;
 	justify-content:space-between;
 	margin-top:15px;
 	
 }
 
 .from-group{
-	width":50%;
+	padding:5px;
+	flex-direction: row;
+    display: flex;
+	align-items:center;
 	
 }
 .submit-button{
 	background-color:;
-	text-align:center;
+	text-align:left;
 	margin-top:20px;
 	
 }
@@ -64,13 +76,13 @@ button{
 	
 	background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,78,160,1) 77%, rgba(4,78,160,1) 100%);
-	border:1px solid #044EA0;
+	border:none;
 	font-weight:700;
 	color:white;
-	padding:10px;
+	padding:8px;
 
 	width:20%;
-	border-radius:10px;
+	border-radius:5px;
 
 }
 
@@ -81,10 +93,10 @@ button.reset{
 	border:1px solid #044EA0;
 	font-weight:700;
 	color:white;
-	padding:10px;
+	padding:8px;
 	border:none;
 	width:20%;
-	border-radius:10px;
+	border-radius:5px;
 
 }
 button.reset:hover{
@@ -110,13 +122,15 @@ padding:5px;
 background-color:#f2f2f2;
 border:none;
 border-radius:2px;
+align-items:center;
+
 
 }
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="password"] {
-    width: 100%; /* Full width of the container */
+    width:70%; /* Full width of the container */
     padding: 5px; /* Inner padding */
     border: 1px solid #ccc; /* Default border color */
     border-radius: 5px; /* Rounded corners */
@@ -134,31 +148,45 @@ input[type="password"]:focus {
 
 
 .radio-button{
-	margin-top:20px;
+	padding:5px;
+margin-top:10px;
+    display: flex;
+	align-items:center;
 		
 }
 
-.radio-button {
-    margin: 10px 0; /* Space around the radio button group */
-}
 
 input[type="radio"] {
-    margin-right: 5px; /* Space between radio button and label */
+    margin-right: 5px; 
+	/* Space between radio button and label */
+	align-items:center;
 }
 
 label {
-    margin-right: 15px; /* Space between labels */
+	display:flex;
+	align-items:center;
+   width:30%;
+   font-size:12px;
 }
-button.or{
-	border-radius:100px;
+
+.button-group{
+	gap:10px;
+	display:flex;
+	margin-left:10px;
+	align-items:center;
+}
+.button-group label{
+	margin-left:-10px;
 	
 }
-.success-message {
-    display: none;
-    color: green;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 16px;
+span{
+	background-color:#fff;
+	border-radius:50px;
+	padding:8px;
+	border:none;
+	margin-left:-140px;
+	font-weight:600;
+	
 }
 
 
